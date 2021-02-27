@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:story/mine_diamond",
+  "display": {
+    "icon": {
+      "item": "opal:opal_dust"
+    },
+    "title": {
+      "translate": "advancements.opal.obtain_opal_dust.title"
+    },
+    "description": {
+      "translate": "advancements.opal.obtain_opal_dust.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "opal_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "opal:opal_dust"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "opal_dust"
+    ]
+  ]
+}

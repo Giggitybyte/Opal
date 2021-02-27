@@ -1,0 +1,48 @@
+{
+  "parent": "opal:progression/obtain_opal_ingot",
+  "display": {
+    "icon": {
+      "item": "opal:opal_pickaxe",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.opal.obtain_opal_tools.title"
+    },
+    "description": {
+      "translate": "advancements.opal.obtain_opal_tools.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 150
+  },
+  "criteria": {
+    "opal_tools": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "opal:opal_sword"
+          },
+          {
+            "item": "opal:opal_pickaxe"
+          },
+          {
+            "item": "opal:opal_axe"
+          },
+          {
+            "item": "opal:opal_shovel"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "opal_tools"
+    ]
+  ]
+}

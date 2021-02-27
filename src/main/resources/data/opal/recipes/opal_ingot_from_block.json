@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "opal:opal_block"
+    }
+  ],
+  "result": {
+    "item": "opal:opal_ingot",
+    "count": 9
+  }
+}

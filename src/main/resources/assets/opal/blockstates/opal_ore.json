@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "opal:block/opal_ore" }
+  }
+}

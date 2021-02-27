@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  
+  "pattern": [
+    "OOO",
+    "OOO",
+    "OOO"
+  ],
+  
+  "key": {
+    "O": {
+      "item": "opal:opal_ingot"
+    }
+  },
+  
+  "result": {
+    "item": "opal:opal_block",
+    "count": 1
+  }
+}

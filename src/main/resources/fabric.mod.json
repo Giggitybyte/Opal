@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "opal",
+  "version": "${version}",
+  "name": "Opal",
+  "description": "An overworld alternative to netherite tools and armor.",
+  "authors": [
+    "Luke Triano (thegiggitybyte)"
+  ],
+  "contact": {
+    "discord": "https://discord.gg/UPKuVWgU4G",
+    "sources": "https://github.com/Giggitybyte/Opal"
+  },
+  "license": "GNU GPL v3.0",
+  "icon": "assets/opal/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.thegiggitybyte.opal.Opal"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}

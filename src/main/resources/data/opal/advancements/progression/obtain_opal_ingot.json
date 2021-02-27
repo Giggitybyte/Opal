@@ -1,0 +1,35 @@
+{
+  "parent": "opal:progression/obtain_opal_dust",
+  "display": {
+    "icon": {
+      "item": "opal:opal_ingot"
+    },
+    "title": {
+      "translate": "advancements.opal.obtain_opal_ingot.title"
+    },
+    "description": {
+      "translate": "advancements.opal.obtain_opal_ingot.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "opal_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "opal:opal_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "opal_ingot"
+    ]
+  ]
+}

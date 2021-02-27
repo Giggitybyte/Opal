@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "opal:opal_dust"
+    },
+    {
+      "item": "opal:opal_dust"
+    },
+    {
+      "item": "opal:opal_dust"
+    },
+    {
+      "item": "opal:opal_dust"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "opal:opal_ingot"
+  }
+}

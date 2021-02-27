@@ -1,0 +1,34 @@
+{
+  "block.opal.opal_ore": "Opal Ore",  
+  "block.opal.opal_block": "Opal Block",
+
+  "item.opal.opal_ore": "Opal Ore",
+  "item.opal.opal_dust": "Opal Dust",
+  "item.opal.opal_ingot": "Opal Ingot",
+  "item.opal.opal_block": "Opal Block",   
+
+  "item.opal.opal_sword": "Opal Sword",
+  "item.opal.opal_pickaxe": "Opal Pickaxe",
+  "item.opal.opal_axe": "Opal Axe",
+  "item.opal.opal_shovel": "Opal Shovel",
+
+  "item.opal.opal_helmet": "Opal Helmet",
+  "item.opal.opal_chestplate": "Opal Chestplate",
+  "item.opal.opal_leggings": "Opal Leggings",
+  "item.opal.opal_boots": "Opal Boots",
+
+  "itemGroup.opal.opal_group": "Opal",
+  "itemGroup.opal.items": "Opal Items",
+
+  "advancements.opal.obtain_opal_dust.title": "Mineral Silica",
+  "advancements.opal.obtain_opal_dust.description": "Obtain an opal dust.",
+
+  "advancements.opal.obtain_opal_ingot.title": "Unlikely Combination",
+  "advancements.opal.obtain_opal_ingot.description": "Combine opal dust and iron ingots to craft an opal ingot.",
+
+  "advancements.opal.obtain_opal_tools.title": "Marginally Better",
+  "advancements.opal.obtain_opal_tools.description": "Have a full set of opal tools in your inventory.",
+
+  "advancements.opal.obtain_opal_armor.title": "Cover Me in Silica",
+  "advancements.opal.obtain_opal_armor.description": "Have a full suit of opal armor in your inventory."
+}

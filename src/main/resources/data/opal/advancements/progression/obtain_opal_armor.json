@@ -1,0 +1,48 @@
+{
+  "parent": "opal:progression/obtain_opal_ingot",
+  "display": {
+    "icon": {
+      "item": "opal:opal_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.opal.obtain_opal_armor.title"
+    },
+    "description": {
+      "translate": "advancements.opal.obtain_opal_armor.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 150
+  },
+  "criteria": {
+    "opal_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "opal:opal_helmet"
+          },
+          {
+            "item": "opal:opal_chestplate"
+          },
+          {
+            "item": "opal:opal_leggings"
+          },
+          {
+            "item": "opal:opal_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "opal_armor"
+    ]
+  ]
+}
